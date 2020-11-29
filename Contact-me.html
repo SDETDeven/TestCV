@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Deven's Contact Details</title>
+  </head>
+  <body bgcolor="#E6E6FA">
+    <h2> Send your Query</h2>
+    <form action="mailto:jain.deven90@yahoo.com" method="post" enctype="text/plain">
+        <table cellspacing="10">
+          <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" name="yourName"><br></td>
+          </tr>
+          <tr>
+            <td><label type="text">Email Id:</label></td>
+            <td><input type="email" name="yourEmail"></td>
+          </tr>
+          <tr>
+            <td><label>Date Of Birth:</label></td>
+            <td><input type="date" name="yourDOB"></td>
+          </tr>
+          <tr>
+            <td><label>Are you a trader?</label></td>
+            <td>
+              <input type="radio" name="Trader" value="yes" checked>
+              <label>Yes</label>
+              <input type="radio" name="Trader" value="no">
+              <label>No</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Monthly requirement in Rupees:</label></td>
+            <td><input type="range" list="tickmarks" name="yourMonthlyRequirement"></td>
+          </tr>
+          <tr>
+            <td><label>Query:</label></td>
+            <td><textarea rows="5" cols="33" name="yourQuery"></textarea></td>
+          </tr>
+          <tr>
+            <td><label>Add Attachments:</label></td>
+            <td><input type="file" name="yourAttachments"></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="submit"></td>
+          </tr>
+        </table>
+    </form>
+    <hr size="3" noshade>
+    <h3 align ="left">Contact Us:</h5>
+      <ul>
+        <li>Call Us: <span>+91 8976629064</span><br></li>
+        <li>Email Us: <span>abc.xyz@gmail.com</span></li>
+        <li><a href="https://www.linkedin.com/in/deven-jain-2b69a2118/">LinkedIn</a></li>
+        <li><a href="https://twitter.com/Deven_Jain90">Twitter</a></li>
+      </ul>
+    <!--<table cellspacing="10">
+      <tr>
+        <td>Call Us: <span>+91 8976629064</span></td>
+        <td>Email Us: <span>abc.xyz@gmail.com</span></td>
+        <td ><a href="https://www.linkedin.com/in/deven-jain-2b69a2118/">LinkedIn</a></td>
+        <td><a href="https://twitter.com/Deven_Jain90">Twitter</a></td>
+      </tr>
+    </table>-->
+    <datalist id="tickmarks">
+  <option value="0"></option>
+  <option value="10"></option>
+  <option value="20"></option>
+  <option value="30"></option>
+  <option value="40"></option>
+  <option value="50"></option>
+  <option value="60"></option>
+  <option value="70"></option>
+  <option value="80"></option>
+  <option value="90"></option>
+  <option value="100"></option>
+</datalist>
+  </body>
+</html>
